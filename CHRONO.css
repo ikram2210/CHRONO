@@ -1,0 +1,126 @@
+html{
+	height: 100%;
+}
+h1{
+	text-align: center;
+}
+header{
+   
+    margin-top: -50px;
+    background-color: white;
+   
+
+
+}
+
+.chronometre{
+	padding-top: 100px;
+	display: flex;
+	justify-content: space-around;
+	}
+
+.bloc{
+
+  
+  width: 300px;
+  height: 400px;
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 50px;
+
+
+
+	
+}
+ body{
+ 	height: 100%;
+ 	margin: auto;
+ 	background-repeat: no-repeat;
+ 	background-size: 100%;
+
+ }
+ .carre {
+ 	width: 250px;
+ 	height: 250px;
+ 	background-color: #FFFFFF;
+ 	opacity: 0.4;
+ 	border-radius: 50px;
+   border: 3px black outset;
+
+
+ }
+.rectangle{
+    margin-top: 50px;
+	width: 250px;
+ 	height: 100px;
+ 	background-color: #FFFFFF;
+ 	opacity: 0.4;
+ 	border-radius: 50px;
+ 	border: 3px black outset;
+
+}
+#rect{
+	margin-top: 50px;
+	width: 250px;
+ 	height: 100px;
+    background-color: red;
+ 	opacity: 0.4;
+ 	border-radius: 50px;
+}
+
+ #colonne
+ {
+ 	display: flex;
+	justify-content: space-around;
+ }
+.click{
+	margin-top: 200px;
+	width: 1500px;
+	height : 100px;
+	background-color: red;
+ 	opacity: 0.3;
+    border-radius: 30px;
+    font-size: 500%;}
+
+h1{
+padding-top: 30px;
+font-size: 400%;
+}
+
+footer{
+    
+	background-color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0px;
+    display: flex;
+}
+
+
+.bas {
+	font-size: 30px;
+	padding-top: 360px;
+	margin-left: 200px;
+
+}
+
+img{
+	width: 30%;
+    margin-left: 700px;
+    padding-top: 280px;
+	
+}
+#Days{
+	font-size: 100px; 
+}
+#Hours{
+	font-size: 100px;
+}
+#Minutes{
+	font-size: 100px;
+}
+#Secondes{
+	font-size: 100px;
+}
