@@ -11,12 +11,13 @@ html{
 	height: 100%;
 }
  body{
+
 	width: 100%;
 	height:100%;
 	background-image: url("image.jpg");
  	
  	background-repeat: no-repeat;
- 	background-size: 220%;
+ 	background-size: 240%;
 }
 
 header{
@@ -33,7 +34,7 @@ h1{
 }
 footer{
 	background-color: white;
-    height: 70px;
+    height: 60px;
 	position: absolute;
     bottom: 0;
     width: 100%;
@@ -41,9 +42,10 @@ footer{
 
 }
 img{
-	width: 30%;
-  float: left;
-  margin-left: 100px;
+  width: 30%;
+  margin-left:25%;
+
+ 
 	
 }
 .chronometre{
@@ -51,7 +53,7 @@ img{
 	padding-top: 70px;
 	display: flex;
 	justify-content: space-around;
-	/*margin-top: -20px;*/
+
 	}
 .bloc{
 
@@ -112,28 +114,29 @@ img{
 }
 #codeuses{
 
-    display: flex;
-    justify-content:center;
-    width: 350px;
-    height: 50px;
-    margin-left: 30px;
+    margin-left: 3%;
+    margin-right:3%;
+    width: 94%;
+    height: 60px;
 	background-color: red;
  	opacity: 0.3;
-    border-radius: 30px;
+    border-radius: 20px;
     font-size: 100%;
 
 }
 h2{
 margin:auto;
 color:black;
+text-align: center;
+padding-top: 15px;
 }
 #bas{
-	margin-top: 10px;
-	margin-left: 30px;
+
+	margin-left: 20px;
 }
 p{
 	font-size: 20px;
-	margin-left : 20px;
+	
 	margin:0;
 	padding: 0;
 
@@ -197,16 +200,17 @@ a{
 }
 #codeuses{
 
-    display: flex;
-	margin-top: 100px;
-	width: 1020px;
+    margin-right: 20%;
+	margin-left:  15%;
+	width: 65%;
 	height : 100px;
 	background-color: red;
  	opacity: 0.3;
     border-radius: 25px;
     font-size: 200%;
     text-align: right;
-    margin-left:240px;}
+    margin-top: 100px;
+    }
     
   h1{
   	padding-top: 10px;
@@ -225,14 +229,15 @@ a{
 	font-size: 100px;
 } 
 img{
-	width: 10%;
+	width: 15%;
   float: left;
-  margin-left: 900px;
+  margin-left: 45%;
+  padding: 0;
 
 }
 #bas{
 	margin-top: 30px;
-	margin-left: 240px;
+	margin-left: 150px;
 }
 p{
 	font-size: 35px;
@@ -251,7 +256,7 @@ a{
 	
 }
 }
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (min-width: 737px) and (max-width: 1280px){
 	header{
      height: 100px;
 	}
@@ -317,8 +322,10 @@ a{
 }
 #codeuses{
 
-    
-    width: 680px;
+    margin-right: 15%;
+    margin-left:  10%;
+    align-items: center;
+    width: 75%;
     height: 70px;
 	background-color: red;
  	opacity: 0.3;
@@ -326,23 +333,21 @@ a{
     margin-top: 100px;
     font-weight: bold;
     
-    position:absolute;
-    left: 20%;
-    margin-left: -110px; 
-    
+   
     
    
 
 }
 img{
-	width:20%;
+  width: 20%;
   float: left;
-  margin-left: 350px;
+  margin-left: 40%;
+  padding: 0;
 
 }
 #bas{
 	margin-top: 10px;
-	margin-left: 140px;
+	margin-left: 90px;
 }
 p{
 	font-size: 25px;
