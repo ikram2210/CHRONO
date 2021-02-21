@@ -20,7 +20,6 @@ function setDate(){
 	var s = Math.floor(s);
 	Secondes.html('<strong>'+s+'</strong>');
 	setTimeout(setDate,1000);
-
 	}
 
 	

@@ -4,6 +4,8 @@
 	box-sizing: border-box;
 	margin : 0;
 	padding: 0;
+	
+
 }
 
 html{
@@ -17,7 +19,8 @@ html{
 	background-image: url("image.jpg");
  	
  	background-repeat: no-repeat;
- 	background-size: 240%;
+ 	/* background-size: 240%; */
+	 
 }
 
 header{
@@ -25,32 +28,34 @@ header{
     width: 100%;
 	height: 80px;
    	background-color: white;
+	
    
 }
 
 h1{
+	width: 100%;
 	text-align: center;
     padding-top: 20px; 
 }
 footer{
+	width: 100%;
 	background-color: white;
     height: 60px;
 	position: absolute;
     bottom: 0;
-    width: 100%;
+    
     display: flex;
 
 }
 img{
-  width: 30%;
-  margin-left:25%;
 
- 
+  margin-left:40%;
 	
 }
 .chronometre{
+	width: 100%;
 	height: 300px;
-	padding-top: 70px;
+	padding-top: 40px;
 	display: flex;
 	justify-content: space-around;
 
@@ -156,6 +161,7 @@ a{
 @media screen and (min-width: 1281px){
 
   header{
+	  width: 100%;
   	height: 100px;
   }
 	footer{height: 130px;}
@@ -170,8 +176,9 @@ a{
   margin-right: 100px;
 }
   .chronometre{
+	  width: 100%;
 	height: 300px;
-	padding-top: 70px;
+	/* padding-top: 70px; */
 	display: flex;
 	justify-content: center;
 	width: 100%;
@@ -203,13 +210,13 @@ a{
     margin-right: 20%;
 	margin-left:  15%;
 	width: 65%;
-	height : 100px;
+	height : 80px;
 	background-color: red;
  	opacity: 0.3;
     border-radius: 25px;
     font-size: 200%;
     text-align: right;
-    margin-top: 100px;
+    margin-top: 40px;
     }
     
   h1{
@@ -229,7 +236,7 @@ a{
 	font-size: 100px;
 } 
 img{
-	width: 15%;
+
   float: left;
   margin-left: 45%;
   padding: 0;
@@ -256,7 +263,7 @@ a{
 	
 }
 }
-@media screen and (min-width: 737px) and (max-width: 1280px){
+@media screen and (min-width: 600px) and (max-width: 1280px){
 	header{
      height: 100px;
 	}
@@ -330,7 +337,7 @@ a{
 	background-color: red;
  	opacity: 0.3;
     border-radius: 30px;
-    margin-top: 100px;
+   
     font-weight: bold;
     
    
@@ -339,9 +346,9 @@ a{
 
 }
 img{
-  width: 20%;
+ 
   float: left;
-  margin-left: 40%;
+  margin-left: 50%;
   padding: 0;
 
 }
