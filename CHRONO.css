@@ -1,4 +1,7 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 
 * {
 	box-sizing: border-box;
@@ -33,6 +36,8 @@ header{
 }
 
 h1{
+	font-family: Roboto;
+	
 	width: 100%;
 	text-align: center;
     padding-top: 20px; 
@@ -102,22 +107,27 @@ footer{
  	padding-top: 8px;
 }
 #Days{
+	font-family: Roboto;
     	font-size: 40px; 
     	padding-top: 10px;
 }
 #Hours{
+	font-family: Roboto;
 	font-size: 40px;
 	padding-top: 10px;
 }
 #Minutes{
+	font-family: Roboto;
 	font-size: 40px;
 	padding-top: 10px;
 }
 #Secondes{
+	font-family: Roboto;
 	font-size: 40px;
 	padding-top: 10px;
 }
 #codeuses{
+	font-family: Roboto;
 
     margin-left: 3%;
     margin-right:3%;
@@ -130,6 +140,9 @@ footer{
 
 }
 h2{
+	font-family: Roboto;
+	font-family: Roboto;
+	
 margin:auto;
 color:black;
 text-align: center;
@@ -140,6 +153,7 @@ padding-top: 15px;
 	margin-left: 20px;
 }
 p{
+	font-family: Roboto;
 	font-size: 20px;
 	
 	margin:0;
@@ -148,7 +162,7 @@ p{
 	
 }
 a{ 
-	
+	font-family: Roboto;
 	font-size: 20px;
 	float: left;
 	
@@ -166,6 +180,8 @@ a{
   }
 	footer{height: 130px;}
 	body{
+	
+	
 		background-size: 100%;
 	}
 	.bloc{
