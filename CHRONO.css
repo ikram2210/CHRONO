@@ -19,7 +19,7 @@ html{
 	background-image: url("images/image.jpg");
  	
  	background-repeat: no-repeat;
- 	/* background-size: 240%; */
+ 	 background-size: 240%; 
 	 
 }
 
@@ -177,7 +177,7 @@ a{
 }
   .chronometre{
 	  width: 100%;
-	height: 300px;
+	height: 200px;
 	/* padding-top: 70px; */
 	display: flex;
 	justify-content: center;
@@ -186,21 +186,21 @@ a{
   	}
 	.carre {
  	width: auto;
- 	height:180px;
+ 	height:150px;
  	border-radius: 50px;
    border: 3px black outset;
    }
    .rectangle{
-    margin-top: 20px;
-	width:180px;
+    margin-top: 10px;
+	width:150px;
  	height: 60px;
  	border-radius: 50px;
  	font-size: 40px;
  	
      }
      #rect{
-	margin-top: 20px;
-	width: 180px;
+	margin-top: 10px;
+	width: 150px;
  	height: 60px;
  	border-radius: 50px;
  	font-size: 40px;
@@ -208,7 +208,7 @@ a{
 #codeuses{
 
     margin-right: 20%;
-	margin-left:  15%;
+	margin-left:  14%;
 	width: 65%;
 	height : 80px;
 	background-color: red;
@@ -216,7 +216,7 @@ a{
     border-radius: 25px;
     font-size: 200%;
     text-align: right;
-    margin-top: 40px;
+    margin-top: 70px;
     }
     
   h1{
@@ -375,6 +375,7 @@ a{
 
 h2{
 	font-size: 50px;
+	padding-top: 0;
 
 }
 h1{
